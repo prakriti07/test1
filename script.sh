@@ -61,3 +61,9 @@ python3 setup.py test
 echo "Build,test and use the C++ implementation"
 python3 setup.py build --cpp_implementation
 python3 setup.py test --cpp_implementation
+
+apt-get install maven -y
+echo "Build and Test java"
+cd java/
+mvn install
+mvn test
