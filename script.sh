@@ -64,6 +64,6 @@ python3 setup.py test --cpp_implementation
 
 apt-get install maven -y
 echo "Build and Test java"
-cd java/
+cd ../java/
 mvn install
 mvn test
